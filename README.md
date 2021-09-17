@@ -180,6 +180,9 @@ Y listo tenemos nuestro programa para calcular sin necesidad de graficar.
 
 # 5 VIDEO 
 
+https://www.youtube.com/watch?v=KGDnwJojPiA
+
+
 # 6 CONCLUSIONES 
 
 Concluimos con éxito lo solicitado para poder entender como se forma un circuito por medio de este programa además personalmente me interezo mucho ya que contamos con las herramientas para formar un circuito y ademas por medio de este programa podemos resoverlo sin necesidad de cálculos es increíble como la tecnología nos lleva a crear programas que nos facilitan a vida hasta en cálculos.

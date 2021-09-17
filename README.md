@@ -40,7 +40,7 @@ En este caso tendremos la capacidad de entender como funciona un programa que no
 
 **1.2. REQUISITOS PREVIOS**
 
-Investigue Sobre como descargar el Programa además visualizar videos para saber cual es su funcionalidad por medio de este link 
+Recomiendo a los usuarios investigar mucho mas del tema, ver videos de su funcionamiento y familiarizarse con su interfaz. Mediante el siguiente link se encuentra el archivo o página de descarga para una sencilla ejecución muchas gracias.
 
 http://ngspice.sourceforge.net/download.html
 

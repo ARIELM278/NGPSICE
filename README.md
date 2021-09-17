@@ -51,7 +51,7 @@ http://ngspice.sourceforge.net/download.html
 
 <div align="center">
   
-** NGSPICE **
+**NGSPICE**
 
 
 [![1.jpg](https://i.postimg.cc/6Qmj3rQK/1.jpg)](https://postimg.cc/8FLBXrWX)
@@ -86,13 +86,23 @@ ANÁLISIS EN TRANSITORIO Análisis temporal de variables de salida: Se pueden es
  Las resistencias y algunos parámetros de los dispositivos semiconductores varían con la temperatura (.TEMP) (por defecto es 27oC)
 
 ANÁLISIS EN AC : Respuesta frecuencial en pequeña señal: Circuito linealizado alrededor del punto de trabajo y considerando entrada sinusoidal (.AC) 
- Análisis de ruido: Las fuentes de ruido se calculan automáticamente (.NOISE) 
+  
+ Análisis de ruido: Las fuentes de ruido se calculan automáticamente (.NOISE)
+  
 Análisis de distorsión: Se superponen en la entrada una o varias señales de distintas frecuencias (.DISTO)
+  
+  
 **2.3¿Cómo cambiar el circuito de NGSPICE a sintaxis de texto block de nota?**
 
 
-Para lograr cambiar es necesario ver como nuestro circuito esta formado ahora según la sintaxis de NGSPICE es necesario saber que el programa identifica según la primera inicial por ejemplo resistencia el programa espera que comienze con R asi sucesivamente. 
+Para lograr cambiar es necesario ver como nuestro circuito esta formado ahora según la sintaxis de NGSPICE es necesario saber que el programa identifica según la primera inicial por ejemplo resistencia el programa espera que comienze con R asi sucesivamente.
+  
 [![8.jpg](https://i.postimg.cc/zX1F7J2T/8.jpg)](https://postimg.cc/4nBcNTg3)
+  
+  En la siguiente imagen podemos notar la sintaxis que usamos en el bloc de notas  para que el programa puede reconocer los comandos inicializado mediante un texto plano.
+  
+[![12.jpg](https://i.postimg.cc/CxCf3mNc/12.jpg)](https://postimg.cc/w1vvJ5nN)
+
 
 
 </div>
@@ -103,7 +113,14 @@ Para lograr cambiar es necesario ver como nuestro circuito esta formado ahora se
 
 
 Han incorporado una capa de abstracción visual, donde los componentes se usan por su símbolo gráfico, ngspice se sigue usando en modo texto, y aunque esta característica pueda parecer una desventaja, lo cierto es que si se llega a dominar, ngspice puede llegar a ser la herramienta de simulación más potente de todas.
+
 No obstante, tanto en aplicaciones privativas como en las interfases gráficas para ngspice, es casi seguro que tendremos que añadir manualmente alguna línea de spice, o editar los parámetros de algún componente, por lo que sea cual fuere la solución que se vaya a usar, siempre que esté basada en spice3f5, conviene saber cómo se escriben los archivos de nodos, y cuáles son sus principales directrices.
+
+
+
+Además, adjuntamos algunos comandos mayormente utilizados por los usuarios al ejecutar el programa.
+
+[![13.jpg](https://i.postimg.cc/d04Z13gd/13.jpg)](https://postimg.cc/rdRwZVVF)
 
 
 
@@ -119,7 +136,7 @@ No obstante, tanto en aplicaciones privativas como en las interfases gráficas p
 <div align="center">
 
 
-Para comenzar descargamos nuestro programa de internet como zip y lo ejecutamos descargando los ficheros en nuestra PC
+Para comenzar descargamos nuestro programa de internet como zip y lo ejecutamos descargando los ficheros cen nuestra PC
 
 [![3.jpg](https://i.postimg.cc/28kK08MP/3.jpg)](https://postimg.cc/w3r2vH6V)
 
@@ -136,6 +153,8 @@ Ahora sabiendo que nuestro programa si va a correr relizaremos un circuito con v
 Hecho ya el circuito con los voltajes requeridos y necesarios para cumplir con su funcionalidad verificaremos sus parte es decir vamos a ver voltaje , nodos , corrientes , resistores,etc.
 
 [![7.jpg](https://i.postimg.cc/D07mWY54/7.jpg)](https://postimg.cc/WFfsC8Bs)
+  
+  
 Ahora abriremos el block de notas para poder hacer una sintaxis de nuestro circuito en modo texto para esto se necesita saber la información de arriba para saber cómo colocar el el block de notas.
 Ahora se guardara tipo cir para que el programa lo pueda encontrar 
 
@@ -149,7 +168,9 @@ Posteriormente abriremos nuestro programa y iniciaremos con source -------- (nom
 
 [![Whats-App-Image-2021-09-17-at-11-39-01-AM.jpg](https://i.postimg.cc/prN8TZ5g/Whats-App-Image-2021-09-17-at-11-39-01-AM.jpg)](https://postimg.cc/34BWf2BB)
 
+  
 Ahora podremos realizar mediante condigos ejercicios es decir vamos a comprobar primero con listing si nuestro circuito esta completo y luego usaremos print all para ver el resultados de los nodos 
+  
 
 [![11.jpg](https://i.postimg.cc/qMxnJ2J5/11.jpg)](https://postimg.cc/kBDDw6tQ)
 
